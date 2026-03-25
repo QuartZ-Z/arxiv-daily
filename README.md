@@ -26,8 +26,10 @@
 所有持久化文件必须写入 workspace/arxiv_daily/
 临时文件（如中间缓存）可以使用 /tmp/
 
+```plain
 arxiv_daily/
 ├── config.yaml # 配置文件
+├── config_private.yaml # 隐私信息配置文件
 ├── main.py # 主流程入口
 ├── fetch.py # 抓取模块
 ├── filter.py # 规则过滤
@@ -42,7 +44,8 @@ arxiv_daily/
 │ ├── run.log
 │ └── error.log
 └── outputs/
-└── report_YYYYMMDD.md
+│ └── report_YYYYMMDD.md
+```
 
 ---
 
