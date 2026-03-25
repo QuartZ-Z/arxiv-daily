@@ -144,7 +144,8 @@ state.json 结构：
   "last_fetch_time": "...", # 上一次成功抓取论文的时间
   "last_success_time": "...", # 上一次成功生成报告的时间
   "last_processed_papers": "...", # 上一次LLM筛选前通过数据清洗的论文列表，对应的json文件路径
-  "top_paper_ids": [] # 时间窗口内被筛选出的优秀论文id
+  "top_paper_ids": [], # 时间窗口内被筛选出的优秀论文id
+  "last_removed_ids": [], # 超过时间窗口被删除的旧论文id
 }
 ```
 
