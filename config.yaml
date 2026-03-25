@@ -1,0 +1,38 @@
+keywords:
+  - "AI for science"
+  - "scientific machine learning"
+  - "machine learning for materials"
+  - "materials discovery"
+  - "inverse design"
+  - "physics-informed neural networks"
+  - "foundation model for science"
+  - "computational materials"
+  - "molecular modeling machine learning"
+
+categories:
+  - cs.LG
+  - cs.AI
+  - stat.ML
+  - cond-mat
+  - physics.comp-ph
+  - math.NA
+
+query_max_results: 500
+
+time_window_days: 30
+
+filters:
+  - materials
+  - material
+  - molecule
+  - protein
+  - physics
+  - simulation
+  - PDE
+  - quantum
+  - science
+
+llm:
+  temperature: 0
+
+top_k: 3

@@ -1,0 +1,6 @@
+__pycache__
+data/
+logs/
+outputs/
+config_private.yaml
+.env
